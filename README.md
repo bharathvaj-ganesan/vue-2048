@@ -12,6 +12,4 @@
 
 ### TODO
 
-- [x] Keyboard
-- [x] Speech recognition
-- [x] Touch Support
+All Done
