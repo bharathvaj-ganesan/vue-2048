@@ -384,7 +384,7 @@ export default {
             if (next && next.value === tile.value) {
               moved = this.mergeTiles(tile, next, positions.next);
             } else {
-              moved = this.moveTile(tile, positions.farthest);
+              moved = !moved ? this.moveTile(tile, positions.farthest) : moved
             }
           } else {
             gameover = false;
